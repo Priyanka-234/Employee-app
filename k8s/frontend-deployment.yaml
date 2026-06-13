@@ -15,6 +15,6 @@ spec:
       containers:
       - name: frontend
         image: 943210priya/employee-frontend:v1
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
